@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a96e0200-52ba-430e-8826-483faf0b0293" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +14,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state>
+              <caret selection-end-line="3" />
               <folding>
                 <element signature="e#25#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_delete_group.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_delete_group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +62,8 @@
       <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="465">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,9 +105,11 @@
         <option value="$PROJECT_DIR$/test_add_group.py" />
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
-        <option value="$PROJECT_DIR$/test/test_add_group.py" />
-        <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/test/test_delete_group.py" />
+        <option value="$PROJECT_DIR$/fixture/group.py" />
+        <option value="$PROJECT_DIR$/test/test_add_group.py" />
+        <option value="$PROJECT_DIR$/test/conftest.py" />
       </list>
     </option>
   </component>
@@ -156,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_add_group.py">
+  <component name="RunManager" selected="Python tests.py.test in test">
     <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="address_book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +191,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="address_book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="py.test in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -184,12 +221,30 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="py.test in test_delete_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="address_book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_delete_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in test_add_group.py" />
       <item itemvalue="Python tests.py.test in test_add_group.py" />
+      <item itemvalue="Python tests.py.test in test_delete_group.py" />
+      <item itemvalue="Python tests.py.test in test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in test" />
+        <item itemvalue="Python tests.py.test in test_delete_group.py" />
         <item itemvalue="Python tests.py.test in test_add_group.py" />
         <item itemvalue="Python tests.Unittests in test_add_group.py" />
       </list>
@@ -209,12 +264,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_add_group_py - 2019.09.30 at 16h 51m 42s.xml">
-      <configuration name="py.test in test_add_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_add_group_py - 2019.09.30 at 17h 10m 19s.xml">
-      <configuration name="py.test in test_add_group.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_add_group_py - 2019.09.30 at 18h 23m 55s.xml">
       <configuration name="py.test in test_add_group.py" configurationId="tests" />
     </history-entry>
@@ -238,6 +287,12 @@
     </history-entry>
     <history-entry file="py_test_in_test_add_group_py - 2019.09.30 at 19h 50m 48s.xml">
       <configuration name="py.test in test_add_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_add_group_py - 2019.09.30 at 20h 01m 21s.xml">
+      <configuration name="py.test in test_add_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_delete_group_py - 2019.09.30 at 20h 15m 01s.xml">
+      <configuration name="py.test in test_delete_group.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -317,8 +372,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="465">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -332,13 +407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+    <entry file="file://$PROJECT_DIR$/test/test_delete_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#25#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
