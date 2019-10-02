@@ -1,4 +1,4 @@
-# from selenium.webdriver.firefox.webdriver import WebDriver
+#from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 #from selenium.webdriver.safari.webdriver import WebDriver
 from fixture.session import SessionHelper
@@ -10,7 +10,7 @@ class Application:
 
     def __init__(self):
         self.wd = WebDriver()
-        self.wd.implicitly_wait(10)
+        #self.wd.implicitly_wait(10)
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
 
