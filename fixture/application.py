@@ -1,9 +1,9 @@
 #from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 #from selenium.webdriver.safari.webdriver import WebDriver
-from fixture.session import SessionHelper
-from fixture.group import GroupHelper
-from fixture.contact import ContactHelper
+from fixture.session_helper import SessionHelper
+from fixture.group_helper import GroupHelper
+from fixture.contact_helper import ContactHelper
 
 
 
