@@ -3,6 +3,8 @@ import pytest
 import random
 import string
 
+
+
 def random_string(prefix, maxlen):
     symbols = string.ascii_letters + string.digits + string.punctuation + " "
     return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])
@@ -22,7 +24,7 @@ def test_add_group(app, group):
     new_groups = app.group.get_group_list()
     assert len(old_groups) + 1 == app.group.count()
     old_groups.append(group)
-    assert sorted(old_groups, key = Group.id_or_max) == sorted(new_groups, key = Group.id_or_max)
+    assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
 
 
 
